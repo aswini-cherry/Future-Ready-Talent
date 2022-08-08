@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head -->
+<head>
+<title>Fresh and Healthy Food</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="Fresh Food a Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+
+<!-- Default-JavaScript-File -->
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+<!-- //Default-JavaScript-File -->
+
+<link rel="stylesheet" href="css/easy-responsive-tabs.css"><!-- easy responsive tabs css -->
+
+<link rel="stylesheet" href="css/jquery-ui.css" type="text/css" media="all"><!-- date-picker css-->
+
+<!-- gallery -->
+	<link href="css/lsb.css" rel="stylesheet" type="text/css">
+<!-- //gallery -->
+
+<!-- banner text effect css files -->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/style3.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<!-- banner text effect css files -->
+
+<!-- logo text effect css files -->
+	<link rel="stylesheet" type="text/css" href="css/demo1.css" />
+	<link rel="stylesheet" type="text/css" href="css/linkstyles.css" />
+<!-- //logo text effect css files -->
+	
+<!-- default css files -->
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+<!-- default css files -->
+	
+<!--web font-->
+	<link href="//fonts.googleapis.com/css?family=Pacifico&amp;subset=latin-ext,vietnamese" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+<!--//web font-->
+	
+<!-- scrolling script -->
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+<!-- //scrolling script -->
+
+</head>
+
+<!-- Body -->
+<body>
+
+<!-- banner -->
+	<div class="banner jarallax">
+		<div class="agileinfo-dot">
+			<div class="header">
+				<div class="container-fluid">
+					<div class="top-nav">
+						<nav class="navbar navbar-default">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav">
+									<li><a class="active" href="index.html">Home</a></li>
+									<li><a href="#about" class="scroll">About</a></li>
+									<li><a href="#services" class="scroll">Services</a></li>
+									<!-- <li><a href="#chefs" class="scroll">Chefs</a></li> -->
+									<li><a href="#gallery" class="scroll">Gallery</a></li>	
+									<!-- <li><a href="#customer" class="scroll">Customers</a></li> -->
+									<li><a href="#contact" class="scroll">Contact</a></li>
+								</ul>
+						
+					<div class="clearfix"> </div>						
+							</div>	
+						</nav>
+						<div class="agileinfo-social-grids">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss"></i></a></li>
+								<li><a href="#"><i class="fa fa-vk"></i></a></li>
+							</ul>
+						</div>
+						
+				</div>		
+					</div>
+					
+			</div>
+			<div class="agileits-banner-info">
+				<h3>Fresh and Healthy Foods</h3>
+					<h2 class="rw-sentence">
+					<span>Nothing brings people together like good food </span>
+					</h2>
+					<a href="#" data-toggle="modal" data-target="#myModal2">Book Your Table</a>
+			</div>
+		</div>
+	</div>
+<!-- //banner -->
+	
+	
+<!-- popup for sign up form -->
+<div class="modal video-modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModal2">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div id="small-dialog2" class="mfp-hide book-form">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h3>Book A Table Now</h3>
+					<form action="#" method="post">
+						<input type="text" name="Name" placeholder="Reservation Name" required=""/>
+						<input type="tel" name="number" placeholder="Mobile Number" required=""/>
+						<input type="email" name="Email" class="email" placeholder="Email" required=""/>
+						<div class="select-block1">
+							<select required="">
+								<option value="">Number Of Guests</option>
+								<option value="">1 Guest</option>
+								<option value="">2 Guests</option>
+								<option value="">3 Guests</option>
+								<option value="">4 Guests</option>
+								<option value="">5 Guests</option>
+								<option value="">More Than 5</option>
+							</select>
+						</div>
+						<input class="date" type="text" id="datepicker2"  name="datepicker2" placeholder="Date Of Arrival" title="Please enter your Arrival Date " required=""/>
+						<textarea name="Message" placeholder="Additional Information (Optional)" ></textarea>
+						<input type="submit" value="Book table">
+					</form>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //popup for sign up form -->
+
+<!-- modal -->
+	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						<h4 class="modal-title">Fresh Food</h4>
+						<h5>1 april 2017</h5>
+					</div> 
+					<div class="modal-body">
+					<div class="agileits-abc-info">
+						<img src="images/s1.jfif" alt="" />
+						<p>Morbi eget mollis erat, sit amet feugiat nulla. In hac habitasse platea dictumst. Sed ac fermentum eros. Pellentesque tincidunt nisi sit amet dui lobortis, pulvinar pellentesque dui tempor. Sed iaculis, nisl a eleifend porttitor, diam mauris gravida arcu, suscipit ullamcorper nulla diam vitae lorem..</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- //modal -->
+	
+<!-- tabs -->	<!-- about -->
+<div class="demo" id="about" style="background-color: aqua;">    
+	<div class="container"> 
+		<div class="abcls-heading">
+			<h3>About us</h3>
+		</div>
+				<div class="resp-tabs-container" style="background-color: aqua;">
+					<!-- section -->
+							<div class="bhoechie-tab-content active">
+								<div class="services-grids">
+									<div class="ser-img">
+										<h3>ONLY FRESH AND HEALTHY FOOD FOR YOUR FAMILY </h3>
+										<p>Healthy food does not have merely one but numerous benefits.
+										 It helps us in various spheres of life. Healthy food does not only impact our physical health but mental health too.
+										 Healthy food also helps us to improve our life and maintain a good lifestyle.
+										</p>
+									</div>
+									<div class="ser-img1">
+										<img src="images/about.png" alt="" />
+									</div>
+									<div class="ser-info">
+										<p>Healthy Salads Help You Get Enough Fruits and Vegetables.Fibre content in them helps us to improve
+											our digestive system and maintain a good gut.A healthy gut also improves our mind.
+										</p>
+										<p>Dessert, the last course of a meal makes us feel satisfied for a meal and also compensates for low blood sugar.
+											Sugar content in them also improves your mood
+										</p>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<!--  section -->				
+				</div>
+	</div>
+</div>
+
+<!-- tabs  js-->
+<script src="js/easy-responsive-tabs.js"></script>
+<script>
+$(document).ready(function () {
+$('#horizontalTab').easyResponsiveTabs({
+type: 'default', //Types: default, vertical, accordion           
+width: 'auto', //auto or any width like 600px
+fit: true,   // 100% fit in a container
+closed: 'accordion', // Start closed if in accordion view
+activate: function(event) { // Callback function if tab is switched
+var $tab = $(this);
+var $info = $('#tabInfo');
+var $name = $('span', $info);
+$name.text($tab.text());
+$info.show();
+}
+});
+$('#verticalTab').easyResponsiveTabs({
+type: 'vertical',
+width: 'auto',
+fit: true
+});
+});
+</script>
+
+<!-- //tabs-js  -->
+
+<!-- //tabs -->    <!-- //about -->
+
+	
+
+	
+	
+<!-- services -->
+<div class="services" id="services">
+		<div class="container">
+			<div class="ser-top wthree-3 wow fadeInDown abc-service-head">
+				<h3>Our Services </h3>
+			</div>
+			<div class="abc-service-grids set-6">
+				<div class="col-md-4  services-abc-grid1 ser-left icon1 hi-icon-wrap hi-icon-effect-6">
+					<i class="fa fa-cutlery hi-icon hi-icon-sort-by-attributes" aria-hidden="true"></i>
+					<h4>Breakfast</h4>
+					<p>The first meal of the day especially when taken in the morning.It replenishes your supply of glucose to boost your energy levels and alertness, while also providing other essential nutrients required for good health</p>
+				</div>
+				<div class="col-md-4  services-abc-grid1 ser-left icon2 hi-icon-wrap hi-icon-effect-6">
+					<i class="fa fa-spoon hi-icon hi-icon-sort-by-attributes" aria-hidden="true"></i>
+					<h4>Lunch</h4>
+					<p>A light midday meal between breakfast and dinner.It raises your blood sugar level in the middle of the day, which gives you the energy you need for the rest of the day. </p>				
+				</div>
+				<div class="col-md-4 services-abc-grid1 ser-left icon3 hi-icon-wrap hi-icon-effect-6">
+					<i class="fa fa-glass hi-icon hi-icon-sort-by-attributes" aria-hidden="true"></i>
+					<h4>Dinner</h4>
+					<p>The main meal of the day, eaten in the evening or at midday.Having a healthy dinner is linked to good sleep, greater resilience to stress, better digestion, stable blood sugar and lower anxiety.</p>				
+
+				</div>
+				<div class="clearfix"></div>
+				<div class="col-md-4 services-abc-grid2 ser-left icon4 hi-icon-wrap hi-icon-effect-6">
+					<i class="fa fa-apple hi-icon hi-icon-sort-by-attributes" aria-hidden="true"></i>
+					<h4>Supper food </h4>
+					<p>A meal eaten in the evening, esp. Supper is used especially when the meal is an informal one eaten at home, while dinner tends to be the term chosen when the meal is more formal.
+					</p>
+				</div>
+				<div class="col-md-4 services-abc-grid2 ser-left icon5 hi-icon-wrap hi-icon-effect-6">
+					<i class="fa fa-glass hi-icon hi-icon-sort-by-attributes" aria-hidden="true"></i>
+					<h4>Pasta ravioli</h4>
+					<p>Ravioli is a type of pasta that is shaped into small squares, filled with cheese and served in a sauce. Ravioli is a traditional Italian pasta dish and often prepared with loved ones for the feast table at Christmastime or for a family celebration.</p>
+				</div>
+				<div class="col-md-4 services-abc-grid2 ser-left icon6 hi-icon-wrap hi-icon-effect-6"  data-wow-duration=".8s" data-wow-delay=".2s">
+					<i class="fa fa-leaf hi-icon hi-icon-sort-by-attributes" aria-hidden="true"></i>
+					<h4>Salads & Desserts</h4>
+					<p>Salad contains various types of Vitamins that helps to prevent diseases such as cancer and heart diseases.Desserts presence on the menu makes us feel satisfied after a meal, and compensates for low blood sugar. </p>
+				</div>
+				<div class="clearfix"></div>
+			</div>	
+		</div>
+</div>
+<!-- /services -->
+	
+<!-- gallery -->
+	<div class="gallery" id="gallery">
+			<div class="agileits_abc_head">
+			<h3>Food Gallery</h3>
+			</div>
+			<div class="abc_gallery_grids">	
+				<div class="col-md-3 abc_gallery_grid">
+					<a href="images/p1.jpg" class="lsb-preview" data-lsb-group="header">
+						<div class="abc_news_grid">
+							<img src="images/p1.jpg" alt=" " style="height:270px;" class="img-responsive">
+							<div class="abc_news_grid_pos">
+								<div class="wthree_text"><h3>Salad</h3></div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 abc_gallery_grid">
+					<a href="images/p2.jpg" class="lsb-preview" data-lsb-group="header">
+						<div class="abc_news_grid">
+							<img src="images/p2.jpg" alt=" " style="height:270px;" class="img-responsive">
+							<div class="abc_news_grid_pos">
+								<div class="wthree_text"><h3>Biryani</h3></div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 abc_gallery_grid">
+					<a href="images/p13.jpg" class="lsb-preview" data-lsb-group="header">
+						<div class="abc_news_grid">
+							<img src="images/p13.jpg" alt=" " style="height:270px;" class="img-responsive">
+							<div class="abc_news_grid_pos">
+								<div class="wthree_text"><h3>Noodles</h3></div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 abc_gallery_grid">
+					<a href="images/p4.jpg" class="lsb-preview" data-lsb-group="header">
+						<div class="abc_news_grid">
+							<img src="images/p4.jpg" alt=" " class="img-responsive">
+							<div class="abc_news_grid_pos">
+								<div class="wthree_text"><h3>Starters</h3></div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 abc_gallery_grid">
+					<a href="images/p9.jpg" class="lsb-preview" data-lsb-group="header">
+						<div class="abc_news_grid">
+							<img src="images/p9.jpg" alt=" " class="img-responsive">
+							<div class="abc_news_grid_pos">
+								<div class="wthree_text"><h3>Ice cream</h3></div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 abc_gallery_grid">
+					<a href="images/p10.jpg" class="lsb-preview" data-lsb-group="header">
+						<div class="abc_news_grid">
+							<img src="images/p10.jpg" alt=" " class="img-responsive">
+							<div class="abc_news_grid_pos">
+								<div class="wthree_text"><h3>tiramisu</h3></div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 abc_gallery_grid">
+					<a href="images/p11.jpg" class="lsb-preview" data-lsb-group="header">
+						<div class="abc_news_grid">
+							<img src="images/p11.jpg" alt=" " class="img-responsive">
+							<div class="abc_news_grid_pos">
+								<div class="wthree_text"><h3>Ravioli</h3></div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 abc_gallery_grid">
+					<a href="images/p12.jpg" class="lsb-preview" data-lsb-group="header">
+						<div class="abc_news_grid">
+							<img src="images/p12.jpg" alt=" "  class="img-responsive">
+							<div class="abc_news_grid_pos">
+								<div class="wthree_text"><h3>Boiled Eggs</h3></div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+</div>
+<!-- //gallery -->
+<!-- gallery js -->
+	<script src="js/lsb.min.js"></script>
+	<script>
+	$(window).load(function() {
+		  $.fn.lightspeedBox();
+		});
+	</script>
+<!-- //gallery js -->
+
+<!-- contact form -->
+	<div class="contact-abcls" id="contact">
+		<div class="container">
+			<h3>contact form</h3>
+				<form action="#" method="post">
+					<div class="col-md-5 col-sm-5 contact-left agileits-abc">
+					
+						<div class="form-control"> 
+							<label class="header">Full Name <span>:</span></label>
+							<input type="text" name="First Name" placeholder="Name" required="">
+						</div>
+						
+						<div class="form-control"> 
+							<label class="header">Email <span>:</span></label>
+							<input type="email"  class="email" name="Email" placeholder="Email" required="">
+						</div>
+						
+						<div class="form-control">
+							<label class="header">Mobile Number <span>:</span></label>
+							<input type="text" name="Number" placeholder="Mobile Number" required="">
+						</div>	
+						<!-- <input type="text" class="email" name="Last Name" placeholder="Last Name" required=""> -->
+					</div> 
+					<div class="col-md-7 col-sm-7 contact-right agileits-abc">
+						<div class="form-control">
+							<label class="header">Message <span>:</span></label>
+							<textarea name="Message" placeholder="Message" required=""></textarea>
+						</div>	
+					<div class="clearfix"> </div> 
+					</div>
+						<input type="submit" value="Send">
+				</form>
+		</div>  
+	</div>  
+<!-- //contact form -->
+
+<!-- map -->
+<div class="map">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15262.818671898607!2d82.2474542!3d16.9890713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3828441947c7cf%3A0xffff4d537004191e!2sPriya%20Paradise!5e0!3m2!1sen!2sin!4v1659459895610!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<div class="agile_map_grid">
+		</div>
+	</div>
+<!-- //map -->
+<!-- footer -->
+<div class="footer">
+		<div class="col-md-6 footer-left">
+			<h3>Fresh And Healthy Food</h3>
+			<p>A healthy diet rich in fruits,vegetables,whole grains and low-fat dairy can help to reduce your risk of heart disease by maintaining blood pressure and cholesterol levels.Fresh Fruits and vegetables are some of the healthiest foods you can eat.They are full of vitamins,minerals and antioxidants,all of which can improve health.Eating more fruits help protect against heart disease.</p>
+		</div>
+		<div class="col-md-6 footer-right">
+			<section class="subscribe" id="subscribe">
+					<h3>Newsletter</h3>
+				<form action="#" method="post" class="newsletter">
+					<input class="email" type="email" placeholder="Your email..." required="">
+					<input type="submit" class="submit" value="">
+				</form>
+			</section>
+			<h4>Follow us</h4>
+				<div class="wthree-icon">
+					<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+					<a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+					<a href="#" class="google"><i class="fa fa-google-plus"></i></a> 
+					<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> 
+				</div>  
+		</div>
+		<div class="clearfix"></div>
+</div>
+<!-- //footer -->
+
+<!-- copyright -->
+<div class="copyright-agile">
+	<p>&copy; Fresh And Healthy Food. All rights reserved | Design by Aswini</p>
+</div>
+<!-- //copyright -->
+
+<script src="js/jarallax.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+
+
+<!-- Date-Picker-JavaScript -->
+				<script src="js/jquery-ui.js"></script>
+				<script>
+					$(function() {
+						$( "#datepicker,#datepicker1,#datepicker2" ).datepicker();
+					});
+				</script>
+<!-- //Date-Picker-JavaScript -->
+
+<!-- banner text effect js file -->
+		<script src="js/modernizr.custom.72111.js"></script>
+<!-- banner text effect js file -->
+
+
+
+</body>
+<!-- //Body -->
+</html>
