@@ -25,3 +25,6 @@ Nutrition is one leg of our journey to better health-movement, rest, and relatio
 Eating healthy food is not a weekend warrior activity,but a daily commitment that extends to a lifelong process.
 
 ![s6](https://user-images.githubusercontent.com/110844366/183472312-3c8ed41c-8795-4f7c-ba7b-465264ea844b.PNG)
+
+
+The link for this webpage is:https://zealous-bay-0a84b9110.1.azurestaticapps.net
