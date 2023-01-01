@@ -1,8 +1,8 @@
 # Future-Ready-Talent
 This is for my Future Ready Talent
-<h3>Fresh and Health Food</h3>
+<h3>Fresh and Healthy Food</h3>
 
-This is a static website developed using HTML,CSS languages and W3 framework. The primary motto of "Fresh and Health Food" is to provide a healthy diet rich in fruits, vegetables and low-fat dairy protects you from many chronic noncommunicable diseases,such as heart disease, diabetes and cancer.
+This is a static website developed using HTML,CSS languages and W3 framework. The primary motto of "Fresh and Healthy Food" is to provide a healthy diet rich in fruits, vegetables and low-fat dairy protects you from many chronic noncommunicable diseases,such as heart disease, diabetes and cancer.
 
 ![s1](https://user-images.githubusercontent.com/110844366/183472253-ac9cfd5c-e1ba-49bf-ba52-d2122c74eebe.PNG)
 
